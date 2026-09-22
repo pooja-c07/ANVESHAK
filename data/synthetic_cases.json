@@ -1,0 +1,242 @@
+{
+  "cases": [
+    {
+      "id": "CASE-2026-CHHAYA",
+      "title": "Operation Chhaya: Inter-State Cyber-Fraud & Hawala Syndicate",
+      "description": "Multi-tier cyber fraud network laundering extorted funds via Jamtara mule accounts, Surat shell firms, and Dubai Hawala channels.",
+      "lead_officer": "Insp. Arvind Rathore, Special Cell / Cyber Crime Unit",
+      "risk_level": "CRITICAL",
+      "status": "ACTIVE_INVESTIGATION",
+      "disclaimer": "AI-ASSISTED INVESTIGATIVE LEADS ONLY — NOT LEGAL PROOF OF GUILT (BHARATIYA SAKSHYA ADHINIYAM COMPLIANT)",
+      "initial_nodes": [
+        {
+          "id": "P-01",
+          "label": "Vikram Singhania",
+          "type": "PERSON",
+          "role": "Suspected Kingpin / Coordinator",
+          "risk": "HIGH",
+          "location": "Mumbai",
+          "confidence": 0.95,
+          "source": "Interrogation FIR #402/2026",
+          "hash": "8f4e2b6a9c1d0e5f7a3b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2e4f6a8b0c2d4e6f"
+        },
+        {
+          "id": "P-02",
+          "label": "Kabir Merchant",
+          "type": "PERSON",
+          "role": "Hawala Operator / Dubai Liaison",
+          "risk": "HIGH",
+          "location": "Surat",
+          "confidence": 0.92,
+          "source": "ED Intelligence Note #88",
+          "hash": "7a3b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2e4f6a8b0c2d4e6f8f4e2b6a9c1d0e5f"
+        },
+        {
+          "id": "P-03",
+          "label": "Rocky (Rakesh Mandal)",
+          "type": "PERSON",
+          "role": "Jamtara Phishing Call Center Handler",
+          "risk": "MEDIUM",
+          "location": "Jamtara",
+          "confidence": 0.89,
+          "source": "State Cyber Cell CDR",
+          "hash": "6c8d0e2f4a6b8c0d2e4f6a8b0c2d4e6f8f4e2b6a9c1d0e5f7a3b4c6d8e0f2a4b"
+        },
+        {
+          "id": "P-04",
+          "label": "Priya Sharma",
+          "type": "PERSON",
+          "role": "Shell Entity Director (Straw Owner)",
+          "risk": "LOW",
+          "location": "Delhi",
+          "confidence": 0.84,
+          "source": "MCA Registrar Filing 2025-26",
+          "hash": "2e4f6a8b0c2d4e6f8f4e2b6a9c1d0e5f7a3b4c6d8e0f2a4b6c8d0e2f4a6b8c0d"
+        },
+        {
+          "id": "A-01",
+          "label": "HDFC-MULE-4819",
+          "type": "ACCOUNT",
+          "details": "HDFC Bank A/C 50200088914819 (IFSC: HDFC0001245)",
+          "risk": "HIGH",
+          "balance": "₹42,50,000",
+          "confidence": 0.98,
+          "source": "Bank Subpoena Response",
+          "hash": "3b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2e4f6a8b0c2d4e6f8f4e2b6a9c1d0e5f7a"
+        },
+        {
+          "id": "A-02",
+          "label": "AXIS-SHELL-9032",
+          "type": "ACCOUNT",
+          "details": "Axis Bank A/C 919010045679032 (IFSC: UTIB0000040)",
+          "risk": "CRITICAL",
+          "balance": "₹1,85,00,000",
+          "confidence": 0.96,
+          "source": "FIU-IND Suspicious Transaction Report",
+          "hash": "4c6d8e0f2a4b6c8d0e2f4a6b8c0d2e4f6a8b0c2d4e6f8f4e2b6a9c1d0e5f7a3b"
+        },
+        {
+          "id": "T-01",
+          "label": "+91-98210-44910",
+          "type": "PHONE",
+          "details": "Burner SIM registered under forged Aadhaar (Airtel Mumbai)",
+          "risk": "HIGH",
+          "confidence": 0.94,
+          "source": "DoT TAFCOP Alert",
+          "hash": "5d7e9f1a3b5c7d9e1f3a5b7c9d1e3f5a7b9c1d3e5f7a9b1c3d5e7f9a1b3c5d7e"
+        },
+        {
+          "id": "T-02",
+          "label": "+91-94311-20984",
+          "type": "PHONE",
+          "details": "Jamtara Tower-7 IMEI cluster burner",
+          "risk": "HIGH",
+          "confidence": 0.91,
+          "source": "Tower Dump Log",
+          "hash": "6e8f0a2b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2e4f6a8b0c2d4e6f8a0b2c4d6e8f"
+        },
+        {
+          "id": "L-01",
+          "label": "Bandra Kurla Complex, Mumbai",
+          "type": "LOCATION",
+          "details": "Financial Hub / Front Office",
+          "risk": "MEDIUM",
+          "confidence": 0.99,
+          "source": "Surveillance Log",
+          "hash": "7f9a1b3c5d7e9f1a3b5c7d9e1f3a5b7c9d1e3f5a7b9c1d3e5f7a9b1c3d5e7f9a"
+        },
+        {
+          "id": "L-02",
+          "label": "Deira Gold Souk, Dubai",
+          "type": "LOCATION",
+          "details": "Overseas Cash Settlement Point",
+          "risk": "HIGH",
+          "confidence": 0.88,
+          "source": "Interpol Blue Notice Dispatch",
+          "hash": "8a0b2c4d6e8f0a2b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2e4f6a8b0c2d4e6f8a0b"
+        }
+      ],
+      "initial_edges": [
+        {
+          "id": "E-01",
+          "source": "P-01",
+          "target": "T-01",
+          "type": "OWNS",
+          "label": "OWNS (Primary SIM)",
+          "weight": 0.94,
+          "timestamp": "2026-01-10T11:20:00Z",
+          "source_doc": "KYC Telecom Records",
+          "evidence": "SIM 9821044910 recovered from Vikram Singhania during airport interception",
+          "why_detected": "Physical device recovery by Special Cell; IMEI and IMSI verified against TAFCOP database showing biometric Aadhaar authorization."
+        },
+        {
+          "id": "E-02",
+          "source": "T-01",
+          "target": "T-02",
+          "type": "CALL",
+          "label": "CALL (38 calls, 142 mins)",
+          "weight": 0.97,
+          "timestamp": "2026-01-14T23:15:00Z",
+          "source_doc": "CDR Analysis Telecom Mumbai-Jamtara",
+          "evidence": "Frequency spike of encrypted VoIP calls followed by 38 direct cellular calls",
+          "why_detected": "Anomalous call frequency spike (38 calls, 142 mins) between Mumbai coordinator and Jamtara operational burner during nocturnal laundering hours."
+        },
+        {
+          "id": "E-03",
+          "source": "P-03",
+          "target": "T-02",
+          "type": "OWNS",
+          "label": "OWNS (Jamtara Burner)",
+          "weight": 0.91,
+          "timestamp": "2026-01-12T09:00:00Z",
+          "source_doc": "Tower Location triangulation",
+          "evidence": "Device handset IMEI geo-located with Rakesh Mandal residence in Jamtara",
+          "why_detected": "Triangulated BTS cell-tower azimuth logs match suspect residential coordinates in Jamtara; handset activated synchronously with phishing victim calls."
+        },
+        {
+          "id": "E-04",
+          "source": "P-03",
+          "target": "A-01",
+          "type": "TRANSFER",
+          "label": "TRANSFER (₹42.5 Lakhs)",
+          "weight": 0.95,
+          "timestamp": "2026-01-18T14:32:10Z",
+          "source_doc": "IMPS Transaction Logs",
+          "evidence": "Layered micro-deposits totaling 42.5 Lakhs routed to HDFC account within 4 hours",
+          "why_detected": "Automated smurfing pattern detected: 23 micro-transfers totaling ₹42.5 Lakhs transferred within 240 minutes, matching rapid cyber-fraud liquidation."
+        },
+        {
+          "id": "E-05",
+          "source": "A-01",
+          "target": "A-02",
+          "type": "TRANSFER",
+          "label": "TRANSFER (₹1.85 Crores)",
+          "weight": 0.96,
+          "timestamp": "2026-01-20T16:04:00Z",
+          "source_doc": "RTGS Clearing House Records",
+          "evidence": "Bulk RTGS transfer flagged under Prevention of Money Laundering Act (PMLA)",
+          "why_detected": "Immediate RTGS conduit routing of ₹1.85 Crores from retail mule account to corporate shell entity without corresponding commercial invoice or GST declaration."
+        },
+        {
+          "id": "E-06",
+          "source": "P-04",
+          "target": "A-02",
+          "type": "OWNS",
+          "label": "OWNS (Signatory)",
+          "weight": 0.89,
+          "timestamp": "2025-11-04T10:00:00Z",
+          "source_doc": "Bank Account Opening Mandate",
+          "evidence": "Priya Sharma listed as sole authorized signatory for Shell Entity",
+          "why_detected": "Corporate Affairs (MCA-21) master data & banking mandate establish suspect as sole registered director, acting as classic straw owner / front signatory."
+        },
+        {
+          "id": "E-07",
+          "source": "P-01",
+          "target": "P-02",
+          "type": "CONTACT",
+          "label": "CONTACT (Frequent Telegram/Hawala)",
+          "weight": 0.92,
+          "timestamp": "2026-01-25T19:40:00Z",
+          "source_doc": "Forensic extraction of seized iPhone 15",
+          "evidence": "Hawala token passcodes exchanged between Singhania and Merchant",
+          "why_detected": "Encrypted messenger chat forensic extraction revealed matching Hawala note token numbers and daily currency settlement quotas between Mumbai and Surat."
+        },
+        {
+          "id": "E-08",
+          "source": "P-02",
+          "target": "L-02",
+          "type": "VISITED",
+          "label": "VISITED (Flight AI-912)",
+          "weight": 0.98,
+          "timestamp": "2026-02-02T04:30:00Z",
+          "source_doc": "Bureau of Immigration Manifest",
+          "evidence": "Kabir Merchant departed Mumbai for Dubai on 2 Feb 2026 with unverified forex",
+          "why_detected": "Immigration departure manifest on flight AI-912 cross-referenced with passenger manifest; travel coincided with offshore fund withdrawal window."
+        }
+      ]
+    }
+  ],
+  "sample_texts": [
+    {
+      "id": "SAMPLE-01-HI",
+      "language": "Hindi (Devanagari)",
+      "badge": "HINDI FIR EXTRACT",
+      "title": "गुप्त सूचना रिपोर्ट - हवाला एवं फर्जी बैंक खाता नेटवर्क",
+      "text": "दिनांक 14 फरवरी 2026 को विशेष सेल को सूचना मिली कि संदिग्ध दीपक वर्मा (Deepak Verma) ने अपने सहयोगी समीर खान (Sameer Khan) के साथ मिलकर करोल बाग, नई दिल्ली (Karol Bagh, New Delhi) में एक अवैध कॉल सेंटर संचालित किया। जांच में पाया गया कि दीपक वर्मा ने मोबाइल नंबर +91-98765-43210 से फोन कॉल (CALL) करके विक्रम सिंघानिया (Vikram Singhania) से संपर्क किया। इसके बाद आईसीआईसीआई बैंक खाता संख्या 001105029341 (ICICI Bank A/C) में ₹75,00,000 (75 Lakhs) की राशि ट्रांसफर (TRANSFER) की गई। संदिग्ध 18 फरवरी 2026 को दुबई (Dubai) भागने की फिराक में था। उक्त साक्ष्य की डिजिटल प्रति केस डायरी में सुरक्षित कर ली गई है।"
+    },
+    {
+      "id": "SAMPLE-02-HINGLISH",
+      "language": "Hinglish (Transliterated)",
+      "badge": "HINGLISH INTERROGATION NOTE",
+      "title": "Interrogation Transcript: Mule Syndicate Layer 3",
+      "text": "Suspect Rohit Malviya ne confess kiya ki usne Arjun Patel se Surat textile market me mulakat ki. Rohit ne apna SBI account 30291184920 provide kiya jisme 12 January 2026 ko ₹25,00,000 transfer huye the. Arjun Patel ne phone number +91-91234-56789 se WhatsApp call kiya tha Kabir Merchant ko. Pata chala ki Arjun Patel frequent visited safehouse at Deira Gold Souk, Dubai for physical Hawala token exchange."
+    },
+    {
+      "id": "SAMPLE-03-EN",
+      "language": "English",
+      "badge": "CYBER CELL CDR & INTEL MEMO",
+      "title": "Cyber Crime Intelligence Memo: Burner IMEI & Shell Transfers",
+      "text": "CONFIDENTIAL INTELLIGENCE MEMO: On 28 January 2026, surveillance unit intercepted communication from suspect Amitesh Roy operating from Jamtara, Jharkhand. Suspect owns unregistered mobile number +91-98112-33445 and placed repeated calls to Priya Sharma in Delhi. Financial trail reveals a direct transfer of ₹50,00,000 from Axis Bank Account AXIS-992019482 to HDFC Account HDFC-MULE-4819. The proceeds were routed via crypto wallet and cash drops at Connaught Place, New Delhi on 05 February 2026."
+    }
+  ]
+}
